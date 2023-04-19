@@ -5,7 +5,7 @@ defmodule Bitly.Client do
 
   @type t :: Tesla.Client.t()
 
-  @default_base_url "https://api-ssl.bitly.com/v3"
+  @default_base_url "https://api-ssl.bitly.com/v4"
 
   @spec new(keyword) :: t()
   def new(attrs \\ []) do
